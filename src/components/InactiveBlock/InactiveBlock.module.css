@@ -1,0 +1,9 @@
+.inactive_item {
+  width: 100px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 7px;
+}
