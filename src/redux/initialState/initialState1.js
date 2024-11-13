@@ -2,66 +2,65 @@ const initialState1 = {
   lvl1: [
     {
       id: 1,
-      name: "item1",
+      name: "https://th.bing.com/th/id/OIP.OsgjZMxPuTyPeQhQcDmKWQHaLB?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 2,
-      name: "item1",
+      name: "https://th.bing.com/th/id/OIP.OsgjZMxPuTyPeQhQcDmKWQHaLB?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 3,
-      name: "item2",
+      name: "https://w7.pngwing.com/pngs/590/571/png-transparent-ryu-hayabusa-ninja-gaiden-3-dead-or-alive-5-kasumi-ninja-video-game-fictional-character-cartoon.png",
       view: false,
     },
     {
       id: 4,
-      name: "item2",
+      name: "https://w7.pngwing.com/pngs/590/571/png-transparent-ryu-hayabusa-ninja-gaiden-3-dead-or-alive-5-kasumi-ninja-video-game-fictional-character-cartoon.png",
       view: false,
     },
     {
       id: 5,
-      name: "item3",
+      name: "https://th.bing.com/th/id/OIP.nfFmuD6fg1d6Ktbj0ai28gHaOe?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 6,
-      name: "item3",
+      name: "https://th.bing.com/th/id/OIP.nfFmuD6fg1d6Ktbj0ai28gHaOe?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 7,
-      name: "item4",
+      name: "https://th.bing.com/th/id/OIP.ViKm1mLiy7Z9wKFAopMdSgHaKl?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 8,
-      name: "item4",
+      name: "https://th.bing.com/th/id/OIP.ViKm1mLiy7Z9wKFAopMdSgHaKl?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 9,
-      name: "item5",
+      name: "https://th.bing.com/th/id/OIP.45cRiX6IyW6IdfczdiO6UQAAAA?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 10,
-      name: "item5",
+      name: "https://th.bing.com/th/id/OIP.45cRiX6IyW6IdfczdiO6UQAAAA?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 11,
-      name: "item6",
+      name: "https://th.bing.com/th/id/OIP.7Jby3YmBCf85OC5ULbJYtAHaL5?rs=1&pid=ImgDetMain",
       view: false,
     },
     {
       id: 12,
-      name: "item6",
+      name: "https://th.bing.com/th/id/OIP.7Jby3YmBCf85OC5ULbJYtAHaL5?rs=1&pid=ImgDetMain",
       view: false,
     },
   ],
-  active: true,
   backgroundImages: [
     {
       id: "bg1",
@@ -86,6 +85,9 @@ const initialState1 = {
   ],
   selected_img:
     "https://www.hearthstone-decks.com/upload/news/2015/mars/01/ragnaros-dos-carte.jpg",
+  activeLvl: true,
+  clickCount: 0,
+  previousClick: null,
 };
 
 export default initialState1;

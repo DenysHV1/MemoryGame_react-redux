@@ -1,0 +1,10 @@
+.active_item {
+	width: 100px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	border: 2px solid white;
+	border-radius: 7px;
+	background-color: rgba(0, 0, 255, 0.129);
+  }
